@@ -1,0 +1,231 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css);
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+ body nav{
+    background: red;
+    height: 80px;
+    margin-top: 12px;
+
+}
+nav label{
+    font-size: 40px;
+    color: rgb(250, 248, 248);
+  line-height: 80px;
+}
+nav .home{
+    float: right;
+    font-size: 30px;
+    display: inline-flex;
+    line-height: 75px;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    text-transform: capitalize;
+    margin-right: 30px;
+    padding: 8px 20px;
+    margin-bottom: 30px;
+  
+
+}
+nav .home a{
+    margin-left: 40px;
+    color: rgb(246, 240, 240);
+    
+}
+nav .home a:hover:not(.active){
+     background-color: rgb(253, 253, 253);
+     color: rgb(210, 13, 13);
+     border-radius: 6px;
+     padding: 7px;
+     width: 50px;
+
+    }
+#checkbtn{
+    float: right;
+    line-height: 75px;
+    margin-right: 20px;
+    display: none;
+}
+#check{
+    display: none;
+}
+#check:checked ~ul{
+    left: 0;
+}
+@media(max-width: 1075px){
+  #checkbtn{
+    display: block;
+  }
+  nav .home{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(52, 47, 47);
+    display: block;
+    text-align: center;
+    position: fixed;
+    top: 80px;
+    left: 100%;
+
+}
+ nav .home li:hover{
+    background-color: white;
+    color: rgb(220, 15, 15);
+     border-radius: 6px;
+
+    }
+nav .home li{
+    margin-top: 30px;
+  
+}
+
+.footer{ 
+    background-color: rgb(70, 64, 64);
+       color: #fff;
+       clear: both;
+       height: 250px;
+       font-size: 10px;
+       margin-bottom: 0%;
+    }
+    .footer li{
+     font-size: 10px;
+   
+    }
+    .footer a{ 
+      color: #d4380d;
+      text-decoration: none;
+      font-size: 10px;
+      margin-left: 10px;
+     }
+     
+}
+.frame{
+    background-color: rgba(225, 220, 225, 0.676);
+    height: 1200px;
+    width: 900px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.frame h1{
+    margin-left: 50px;
+    margin-top: 50px;
+ 
+}
+.frame h3{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+@media(max-width: 1075px){
+    .frame{
+        background-color: rgba(225, 220, 225, 0.676);
+        height: 800px;
+        width: 600px;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .frame h1{
+        margin-left: 50px;
+     
+    }
+    .frame h3{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+@media(max-width: 580px){
+    .frame{
+        background-color: rgba(225, 220, 225, 0.676);
+        height: 1500px;
+        width: 400px;
+        margin-top: 50px;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    .frame h1{
+        margin-left: 10px;
+     
+    }
+    .frame h3{
+        margin-left: 10px;
+        margin-right: 50px;
+    }
+
+.footer{ 
+    background-color: rgb(70, 64, 64);
+       color: #fff;
+       clear: both;
+       height: 200px;
+
+    }
+
+   
+    }
+    .footer a{ 
+      color: #d4380d;
+      text-decoration: none;
+     }
+     
+    
+    .forms{
+        background-color: rgb(209, 169, 169);
+        margin-top: 50px;
+        width: 400px;
+        border-radius: 4vh;
+        height: 600px;
+        font-size: 20px;
+    }
+    .forms label{
+        font-size: 23px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    .forms ul li{
+        margin-top: 10px;
+        list-style: none;
+        width: 300px;
+    }
+    .forms ul li input{
+        height: 30px;
+        width: 250px;
+        margin-left: 20px;
+        border-radius: 5px;
+        border-color: #0ce31a;
+    
+    }
+    .forms ul li input:hover{
+        background-color: #cbc9c8;
+    }
+    .forms .submit{
+        background-color: #f3f0ef;
+        margin-top: 30px;
+    }
+ .sr{
+    background-color: rgb(227, 215, 215);
+    margin-top: 10px;
+    align-items: center;
+    width: 100%;
+  
+   
+ }
+ .sr input{
+  height: 30px;
+  border-style:ridge;
+  border-color: gold;
+  width: 300px;
+  padding: 20px;
+
+ }
+ .sr input:hover{
+    background-color: antiquewhite;
+ }
+ .shareicon{
+
+    font-size: 50px;
+ }
+ .shareicon p{
+    align-items: center;
+ }
